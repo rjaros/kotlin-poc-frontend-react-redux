@@ -20,7 +20,7 @@ class Link(props: LinkProps) : RComponent<LinkProps, RState>(props) {
             attrs.onClickFunction = { props.onClick() }
             attrs.disabled = props.active
             css {
-                marginLeft = 4.px
+//                marginLeft = 4.px
             }
             children()
         }
